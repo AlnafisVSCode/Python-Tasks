@@ -28,3 +28,19 @@ print("")
 
 print (end1, end = " ")
 print("yeyeyw")
+#Space
+print("-"*30)
+lend1 = "c"
+lend2 = "a"
+lend3 = "s"
+lend4 = "s"
+lend5 = "e"
+lend6 = "t"
+print(lend1+lend2+lend3, end=' ')
+print(lend4+lend5+lend6)
+print("-"*30)
+print("The car that ive been seeign right now is: {}" .format("The LFA"))
+#Space
+print("-" * 30)
+print("Hello Mr Jay im back aggain, what was the issue?", end=' ')
+print("Me: Shut up, you stupid little beach, okkk>>???")
