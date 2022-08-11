@@ -32,5 +32,8 @@ target.write("\n")
 
 print("And we are finally, Closing this shhhhhhhhhhit Twinn.")
 target.close()
+#Now We Gon Try Our selves Creating what we did previosuly on our ownn Twin
+
+#Also Comment out before last Comment as it's the real Example but leave this onward for us
 
 
