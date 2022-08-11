@@ -2,7 +2,7 @@ from sys import argv
 
 # print("What is the File Name BOY")
 #Creating the arguament and it allows us to input using our script argv
-script, filename= argv
+filename= input()
 
 #open() opens the file and it stores it in the var!
 txt = open(filename)
@@ -25,6 +25,11 @@ print(txt_again.readline())
 #Read all each Lines!!!!
 print(txt_again.readlines())
 print(txt_again.readlines())
+
+#To Empty File;;
+# txt.truncate()
+txt.close()
+txt_again.close()
 
 # title = 'fllllllllllllllllllllllllpalpefpakfoakfoksofe'
 
