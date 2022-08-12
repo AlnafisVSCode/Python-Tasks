@@ -5,7 +5,7 @@ from time import time
 #In Minutes
 day1 = 158
 day2 = 158
-day3 = 0
+day3 = 120
 day4 = 0
 day5 = 0
 day6 = 0
