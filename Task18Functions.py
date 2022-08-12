@@ -17,3 +17,5 @@ def print_none():
     print_two_again("Zed", "Shaw")
     print_one("First!")
     print_none()
+    "https://rupert.id.au/python/book/learn-python3-the-hard-way-nov-15-2018.pdf"
+    "ff"
