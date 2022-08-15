@@ -42,11 +42,13 @@ print("Lastly there is the direct argument:")
 print("This is going be biggggggg\n")
 birthday_cakes(100000000000, 99999999999)
 
-user_input1 = input()
-user_input2 = input()
+print("User!, What is your 1st Input?")
+user_input1 = input("Salt = ")
+print("User!, What is your 2nd Input?")
+user_input2 = input("Sugar = ")
 
-print(f"User!, What is your 1st Input?\n User: {user_input1}")
-print(f"Hello User!, What is your 2nd Input?\n User: {user_input2}\n")
+print(f"User: {user_input1}")
+print(f"Hello User!, What is your 2nd Input?\nUser: {user_input2}\n")
 
 
 birthday_cakes(user_input1,user_input2)
