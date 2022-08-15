@@ -13,9 +13,7 @@ def print_none():
     print("I got nothin.")
     
 
-    print_two("Zed", "Been")
-    print_two_again("Zed", "Shaw")
-    print_one("First!")
-    print_none()
-    "https://rupert.id.au/python/book/learn-python3-the-hard-way-nov-15-2018.pdf"
-    "ff"
+print_two("Zed", "Been")
+print_two_again("Zed", "Shaw")
+print_one("First!")
+print_none()
