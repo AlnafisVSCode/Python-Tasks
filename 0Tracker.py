@@ -6,7 +6,7 @@ from time import time
 day1 = 158
 day2 = 158
 day3 = 120
-day4 = 0
+day4 = 120
 day5 = 0
 day6 = 0
 day7 = 0
