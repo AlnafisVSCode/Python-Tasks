@@ -7,7 +7,7 @@ day1 = 158
 day2 = 158
 day3 = 120
 day4 = 120
-day5 = 0
+day5 = 120
 day6 = 0
 day7 = 0
 
