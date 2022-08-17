@@ -12,7 +12,7 @@ def weather(arg1, arg2):
 def temp(arg1):
     print("Temp will be == 3")
     print("Average temp will be:", arg1)
-    return arg1
+    return arg1 * 3
 
 rain = int(input("Input rain: "))
 lightning = int(input("Input Lightning: "))
@@ -26,7 +26,8 @@ print("is equal to:", arg_var)  #METHOD 2
 
 print("-"*20)
 
-arg_temp = temp(input("Temp C: "))
+arg_temp = temp(int(input("Temp C: ")))
 print("Totals temp:", arg_temp)
+
 
 
