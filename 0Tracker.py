@@ -8,7 +8,8 @@ day2 = 158
 day3 = 120
 day4 = 120
 day5 = 120
-day6 = 0
+"Wednesday"
+day6 = 120
 day7 = 0
 
 total_time = day1+day2+day3+day4+day5+day6+day7
