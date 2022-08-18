@@ -14,3 +14,7 @@ Jay:    well, I need some help with a deal that i have with a private client!
     Allright Brudda, Ill do what i can do to help with this problem
 Jay: Thanks a bunch Brudda!!!        
 """)
+
+print("""Nahhhhhhhhhhhhhhhhhhhhh
+
+duuuuuuuuuuuuuuuuuuuude""")

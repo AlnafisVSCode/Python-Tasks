@@ -44,3 +44,17 @@ print("The car that ive been seeign right now is: {}" .format("The LFA"))
 print("-" * 30)
 print("Hello Mr Jay im back aggain, what was the issue?", end=' ')
 print("Me: Shut up, you stupid little beach, okkk>>???")
+
+#s1
+print("---------------------")
+cum1 = "a"
+cum2 = "p"
+cum3 = "p"
+cum4 = "l"
+cum5 = "e"
+cum6 = "c"
+cum7 = "u"
+cum8 = "m"
+print(cum1+cum2+cum3+cum4+ cum5, end=" ")
+print(cum6+ cum7+ cum8, end = " ")
+print("Done?", "Ending with a string?")

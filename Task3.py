@@ -1,5 +1,3 @@
-from lib2to3.pgen2.token import GREATER
-
 
 print(2+2)
 print(2-2)
@@ -19,3 +17,6 @@ print("is it greater or equal", 5 >= -2)
 
 #Here we demonstrate that we can use calculators and see if 5 is more? which is not
 print("more?", 5<=-2)
+#s1
+print("The calculator can 140000*22222 ==", 140000*22222)
+print("Is 2+2 = 4?", 2+2==4 )

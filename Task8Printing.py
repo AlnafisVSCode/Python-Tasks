@@ -11,3 +11,21 @@ print(formatter.format(
     "Maybe a poem",
     "Or a song about fear"  
 ))
+#S1
+print("---------------")
+
+ballon = "{} {}"
+print(ballon.format("blue", "red"))
+
+
+joke_funny = False
+
+joke = "Is this joke funny?? > {}"
+
+# print(joke.format(joke_funny))
+
+print(joke.format("Lame!!!!!!!!!!!!!!!"))
+
+
+
+

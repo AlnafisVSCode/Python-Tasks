@@ -27,3 +27,10 @@ print(backslash_cat)
 print(fat_cat)
 # print(x)
 print(y)
+
+#s1
+print("-----------------------------------------------------")
+#tab is \t
+print("Your Lame\n> Your Response?\t So? Beachhhhh\n")
+print("""
+\t- List1\n\t- List2\n\t- List3""")

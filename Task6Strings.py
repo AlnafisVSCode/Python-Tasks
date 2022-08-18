@@ -43,3 +43,16 @@ print("")
 print(z)
 print(x + " " + y) #Works in both ways x, y or + " " + 
 
+#S1
+print("-"*30)
+# hilarious = False
+
+# joke_evaluation = "Isnt that joke so funny ?! {}"
+
+# print(joke_evaluation.format(hilarious))
+funny_is_it = True
+
+var_joke = "So the sheep fell off! funny? {}"
+
+print(var_joke.format(funny_is_it))
+

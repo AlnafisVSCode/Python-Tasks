@@ -22,3 +22,8 @@ print("put about", avg_passenger_perCar, "in each car")
 print("Calculating 100 / 10 is :", j/x)
 #Space
 print("is 100 equal to 10??", x == j)
+
+#s1
+var_acs = 200
+var_kd = 2.0
+print(f"So my acs is {var_acs}, and my kd is around: {var_kd}. So can you add them?: {var_kd == var_acs}")
