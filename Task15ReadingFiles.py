@@ -1,3 +1,4 @@
+from asyncore import read
 from sys import argv
 
 # print("What is the File Name BOY")
@@ -31,6 +32,12 @@ print(txt_again.readlines())
 txt.close()
 txt_again.close()
 
+
+
+
+
+
+
 # title = 'fllllllllllllllllllllllllpalpefpakfoakfoksofe'
 
 # script, filename = argv
@@ -43,3 +50,15 @@ txt_again.close()
 # # print(title)
 
 # filename.close()
+
+# #s1
+# # print("-----------------------------------------------------")
+
+# print("What is the file name?")
+# file_name = input("> ")
+# open_file = open(file_name)
+# print(f"Name of the file is: {file_name}")
+# # print(open_file.readlines())
+# print(open_file.read())
+
+

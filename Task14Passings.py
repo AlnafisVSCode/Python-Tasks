@@ -54,7 +54,16 @@ And you have a {computer} computer. Nice Brudda.
 print("*" * 30)
 print("")
 
+#s1
+# print("-----------------------------------------------------")
 
+# print("Hello What is you Name?")
+# script, your_name = argv
+
+# print(f"Hi {your_name}, the script your running is {script} script")
+# print(f"{your_name} do you like ice?")
+# input("> ")
+# print("OK")
 
 
 
