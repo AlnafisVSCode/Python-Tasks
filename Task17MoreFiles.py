@@ -56,3 +56,24 @@ print(insfile)
 infile.close()
 outfile.close()
 
+
+# from genericpath import exists
+# from sys import argv
+
+
+# script, file_one, file_two = argv
+
+# print("File One: ", file_one)
+# print("File Two: ", file_two)
+
+# open_file = open(file_one)
+# read_file = open_file.read()
+
+# print("Does file number 2 exist?", exists(file_two))
+
+# open_file2 = open(file_two, "w")
+# write_file = open_file2.write(read_file)
+
+# open_file.close()
+# open_file2.close()
+
