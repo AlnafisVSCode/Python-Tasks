@@ -17,3 +17,7 @@ print(f"age + height =={total}", round(exchange))
 print("Beach what it is this burdda",b )
 print(f"Brodie {xx}")
 print("my email dear sir!! is", email)
+
+#S1
+var_ratio = 1.4 * 2
+print("Timzing 1.4*2 =",round(var_ratio))
