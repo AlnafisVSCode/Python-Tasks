@@ -24,6 +24,7 @@ def divide(a, b):
 age = add(30, 5)
 print("Adding the ages ==", age)
 height = substract(10, 5)
+print("Sub the height ==", height)
 weight = multiply(100, 2)
 iq= divide(100, 2)
 print("> ", iq)

@@ -20,65 +20,81 @@ Finally, repeat this a few times to yourself:
 """
 
 
-var = 1+1
-def print_two(*args):
-    arg1, arg2 = args
-    print(f"arg1: {arg1}, arg2: {arg2}")
+# var = 1+1
+# def print_two(*args):
+#     arg1, arg2 = args
+#     print(f"arg1: {arg1}, arg2: {arg2}")
 
-#Much more effiecnient in creating function as it's not necessary to unpack!!
-#Just unpack everything () inside like arg1, arg2 in front of def + varName --> then print
-def print_two_again(arg1, arg2):
-    print(f"arg1: {arg1}, arg2: {arg2}")
+# #Much more effiecnient in creating function as it's not necessary to unpack!!
+# #Just unpack everything () inside like arg1, arg2 in front of def + varName --> then print
+# def print_two_again(arg1, arg2):
+#     print(f"arg1: {arg1}, arg2: {arg2}")
 
 
-#Only PRINTS ONE
-def print_one(arg1):
-    print(f"arg1: {arg1}")
+# #Only PRINTS ONE
+# def print_one(arg1):
+#     print(f"arg1: {arg1}")
 
-def print_none():
-    print("I got nothin.")
+# def print_none():
+#     print("I got nothin.")
 
     
-print_two("Zed", "Been")
-print_two_again("Zed", "Shaw")
-print_one("First!")
-print_none()
+# print_two("Zed", "Been")
+# print_two_again("Zed", "Shaw")
+# print_one("First!")
+# print_none()
 
-print("So 1+1 is: ", var)
-#Space++++++++++++++++++
+# print("So 1+1 is: ", var)
+# #Space++++++++++++++++++
 
-#Solo
+# #Solo
 
-#Function with no argumanets
+# #Function with no argumanets
 
-def print_nonee():
-    print("I got Nothing2")
+# def print_nonee():
+#     print("I got Nothing2")
 
-print_nonee()
+# print_nonee()
 
-#print 1 argument:
+# #print 1 argument:
 
-def print_Onee(arg1):
-    print("Arg Onee iss:", arg1)
-
-
-print_Onee("Shit Up")
-
-#Prints 2 with unpacking args
-
-def print_2(*args):
-    peanut, allu = args
-    print(f"My ARGS are: {peanut} and {allu}")
-
-print_2("Peanutas", "Alloys")
+# def print_Onee(arg1):
+#     print("Arg Onee iss:", arg1)
 
 
-#Print 2 without unpacking!
+# print_Onee("Shit Up")
 
-def printingTwo(arg1, arg2):
-    print(f"These are 2 of unpacked arguments: {arg1} and {arg2}")
-    print("That's all to it bbabyyy!!")
+# #Prints 2 with unpacking args
 
-printingTwo("Microphone", "Oven?")
+# def print_2(*args):
+#     peanut, allu = args
+#     print(f"My ARGS are: {peanut} and {allu}")
 
+# print_2("Peanutas", "Alloys")
+
+
+# #Print 2 without unpacking!
+
+# def printingTwo(arg1, arg2):
+#     print(f"These are 2 of unpacked arguments: {arg1} and {arg2}")
+#     print("That's all to it bbabyyy!!")
+
+# printingTwo("Microphone", "Oven?")
+
+#s1
+# print("-----------------------------------------------------")
+
+def colors(arg1, arg2):
+    print(f"colour One is {arg1}")
+    print(f"colour Two is {arg2}")
+    return arg1 + arg2
+
+red = 1
+blue = 2
+var_color = colors(red, blue)
+
+# print("The colour which mentioned are:", {colors(red, blue)})
+print(f"The colour which mentioned are: {var_color}")
+
+print("So 2+1: >>> ", colors("3e", "lame"))
 
