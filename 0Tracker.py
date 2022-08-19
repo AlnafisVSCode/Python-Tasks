@@ -1,6 +1,6 @@
 from time import time
 
-#Calculate your Time!
+#Calculate your Time! Edited By RacingXHunter
 
 #Weeks 1-4 > Mins
 Week_1 = 886  # 9 - 18 Aug
