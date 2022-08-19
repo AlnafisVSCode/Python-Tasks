@@ -53,6 +53,24 @@ print(f"Hello User!, What is your 2nd Input?\nUser: {user_input2}\n")
 
 birthday_cakes(user_input1,user_input2)
 
+#s1
+# print("--------------------------------------------------------------------------------------------")
 
+# def fruits(orange, banana):
+#     print(f"I can eat {banana} bananas in a day")
+#     print(f"I also Lovee {orange} oranges leftovers from the x tree.\nEnd")
+#     return banana
 
+# # fruits(5, 20)                 #METHOD1
 
+# # oranges = 10                  #METHOD 2
+# # bananas = 20
+# # var_fruits = fruits(oranges, bananas)
+# # print(f"There is about {var_fruits} oranges left for the Guests xo, and about oranges =", var_fruits)
+
+# # fruits(5+10, 20+20) # Calculation #Method 3
+
+# var_Orange = 15000.10
+# var_Bananas = 20000.20
+
+# fruits(var_Orange+20, var_Bananas+20.20) #METHOD 4
