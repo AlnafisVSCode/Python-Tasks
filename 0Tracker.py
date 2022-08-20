@@ -10,7 +10,7 @@ Week_3 = 0
 #In Minutes
 day1 = 174
 day2 = 127
-day3 = 0
+day3 = 120
 day4 = 0
 day5 = 0
 day6 = 0
