@@ -13,7 +13,7 @@ day2 = 127
 day3 = 120
 day4 = 120
 day5 = 0
-day6 = 0
+day6 = 203
 day7 = 0
 
 total_time = day1+day2+day3+day4+day5+day6+day7
@@ -41,5 +41,5 @@ print("Daily Information\n", "Day1: {} Mins\n" .format(day1),
 print("Total Time Spent:", total_time, ">", total_timeH, "Hours")
 print(f"Time Remaining: {time_remaining} Minutes")
 print("Hours Remaining: ", hour_remaining)
-print("Helper:", 100+ 27 )
+print("Helper:", 180+8+15 )
 
