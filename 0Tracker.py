@@ -4,7 +4,7 @@ from time import time
 
 #Weeks 1-4 > Mins
 Week_1 = 886  # 9 - 18 Aug
-Week_2 = 0    #18 - 25 Aug
+Week_2 = 870    #18 - 25 Aug
 Week_3 = 0
 
 #In Minutes
@@ -14,7 +14,7 @@ day3 = 120
 day4 = 120
 day5 = 0
 day6 = 203
-day7 = 0
+day7 = 126
 
 total_time = day1+day2+day3+day4+day5+day6+day7
 total_timeH = total_time/60
