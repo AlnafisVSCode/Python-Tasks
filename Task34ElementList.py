@@ -7,4 +7,4 @@
 bear_moved = False
 Tauntbear = True 
 
-print(True and not False)
+print(True and not bear_moved)
