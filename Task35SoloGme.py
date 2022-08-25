@@ -5,14 +5,17 @@
 #Start
 
 
-user = input("Hello User, What is your name ?")
+
+userA = input("Hello User, What is your name ?")
+user = userA+":" 
+
 
 def start():
     # print("Hello User, What is your name ?", end= "")
     # user = input()
     print(user, "you are in a cave!\nYou Have 2 Choices 'Left' or 'Right'")
 
-    choice = input(f"{user}: ")
+    choice = input(f"{user} ")
 
     if "right" in choice:
         print("Interesting...\nYou Entered the snake room....")
@@ -95,18 +98,55 @@ def last_trap():
 def snake_room():
     print("")
     print(f"Welcome To the Snake Room {user}!!!!\n The golden ticket is right in front of you.")
-    print("1.'Run' for it?\n2.'Hit' the snakes?\n3.'Use the 'Torch' to scare the snakes?")
+    print("1.'Run' for it?\n2.'Hit' the snakes?\n3.'Use the 'Torch' to scare the snakes?\n4. 'Open' door?")
 
     snake_moved = False
 
     while True:
-        
+        choice = input(user)
+
+        if choice == "run":
+            print("What is Wrong with you???")
+            dead()
+
+        elif choice == "hit":
+            print("Some of them are venomus\nNow you have 1/2 Health!")
+            
+        elif choice == "torch" and not snake_moved:
+            print("Actually Smart, wow\nThey get scared and Door Opens")
+            snake_moved = True#Can you have 2x  equals?>>>>>>>YOU CANNOT IT DOES NOT WORK
+
+        elif choice == "torch" and  snake_moved:
+            print("They Adapted and killed you")
+            dead()
+
+        elif choice == "open" and snake_moved:
+            print(f"Nice {user} you were able to go through the door!!")
+            gold_room()
+        else: 
+            print("What do you mean?????")
+
+def gold_room():
+    print(f"Welcome Mr {user}, You have finally reached your destination!")
+    print("So how much gold do you want?")
+
+    choice = input("> ")
+
+    if "0" in choice or "1" in choice:
+        how_much = int(input())
+    else:
+        dead()
+    if choice < 100:
+        print("Congrats you are not a greedy fuck!")
+        exit(0)
+
+    elif choice > 101:
+        print("I will give it to you but if it was any higher You be Gonzo")
+        exit(0)
+    else:
+        print("Learn to write a number you beach!!")
+        gold_room()
 
 
 
-
-
-
-
-
-snake_room()
+start()
