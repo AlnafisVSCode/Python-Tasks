@@ -1,0 +1,42 @@
+
+
+
+arrow = ">> "
+
+
+def start():    
+    print("Hello Dear User!")   
+    print('you can decide for your self to take\nThe Right Path\n\tOr\nThe Left Path')
+
+    choice = input(arrow)
+    if choice == "right":
+        print(f"You took the {choice} path\nYou shall enter a dungeon Now....")
+        Duungeon()
+    elif choice == "left":
+        print(f"You took {choice} path\nYou Skipped to level 2")
+        # level2()
+    else:
+        print("What Frick is Up??\nDead....")
+        # dead()
+
+#Dungeon
+
+def Duungeon():
+    print("Welcome to the game that feels never ending!")
+    print("Guess the number to go to level 2 or FF")
+    print("1-10")
+    choice = int(input(arrow))
+
+    while choice != "1":
+        print("Well done")
+    elif choice !"1":
+        print("Go Againe")
+    else:
+        print("What Number")
+
+#dead()
+
+#level_2
+
+
+start()
