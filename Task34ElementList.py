@@ -10,4 +10,4 @@ Tauntbear = True
 print(True and not bear_moved)
 print(False or not True)
 print(True and (not False and True))
-print()
+print(False or (not True or False))
