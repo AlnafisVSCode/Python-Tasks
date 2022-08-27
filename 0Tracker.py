@@ -5,16 +5,16 @@ from time import time
 #Weeks 1-4 > Mins
 Week_1 = 886  # 9 - 18 Aug
 Week_2 = 870    #18 - 25 Aug
-Week_3 = 0
+Week_3 = 0      #25 - 31 Augcc
 
 #In Minutes
-day1 = 174
-day2 = 127
-day3 = 120
-day4 = 120
+day1 = 152 #25
+day2 = 120
+day3 = 0
+day4 = 0
 day5 = 0
-day6 = 203
-day7 = 126
+day6 = 0
+day7 = 0
 
 total_time = day1+day2+day3+day4+day5+day6+day7
 total_timeH = total_time/60
@@ -41,5 +41,5 @@ print("Daily Information\n", "Day1: {} Mins\n" .format(day1),
 print("Total Time Spent:", total_time, ">", total_timeH, "Hours")
 print(f"Time Remaining: {time_remaining} Minutes")
 print("Hours Remaining: ", hour_remaining)
-print("Helper:", 180+8+15 )
+print("Helper:", 120+32 )
 
