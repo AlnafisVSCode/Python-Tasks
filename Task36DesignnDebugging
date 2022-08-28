@@ -29,7 +29,8 @@ def Duungeon():
 
     while choice != "1":
         print("Well done")
-    elif choice !"1":
+        exit(0)
+    elif choice != "1":
         print("Go Againe")
     else:
         print("What Number")
