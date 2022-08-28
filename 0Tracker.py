@@ -9,8 +9,8 @@ Week_3 = 0      #25 - 31 Augcc
 
 #In Minutes
 day1 = 152 #25
-day2 = 120
-day3 = 0
+day2 = 120 #26
+day3 = 120 #27
 day4 = 0
 day5 = 0
 day6 = 0
