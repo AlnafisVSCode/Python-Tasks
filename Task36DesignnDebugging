@@ -71,6 +71,7 @@ def level_2():
 
     elif choice == 10:
         print("wELL Done...\nUr Smart!")
+        level_3()
 
     else:
         print("Done!")
@@ -82,5 +83,8 @@ def level_2():
 def dead():
     exit(0)
     
+def level_3():
+    print("")
+    print("Welcome To Level 3....")
 
 level_2()
