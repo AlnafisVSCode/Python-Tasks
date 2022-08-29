@@ -20,23 +20,67 @@ def start():
         # dead()
 
 #Dungeon
-
+#While loop runs until ITS FALSE
 def Duungeon():
     print("Welcome to the game that feels never ending!")
     print("Guess the number to go to level 2 or FF")
     print("1-10")
+    up_five = ["1","2","3","4","5"]
+    down_five = 1, 2, 3
+    loop = False
+    x = 6
+
+    while True:
+        choice = int(input(arrow))
+
+
+        if choice == x:
+            print("Go Agane")
+            dead()
+        elif choice == 9 and not loop:
+            print("Nice One. You can Proceed to Lv 2.")
+            print("jk")
+            loop = True
+        elif choice == 9 and loop:
+            print("Nice One. You can Proceed to Lv 2.")
+            level_2()
+            
+        else:
+            print("Are Those Numbers?")
+
+    
+
+
+def level_2():
+    print(" ")
+    # print("Welcome to Level 2....")
+    # print("It's a Math Game\n What is: 2+2+6/2+2+1?")
     choice = int(input(arrow))
 
-    while choice != "1":
-        print("Well done")
-        exit(0)
-    elif choice != "1":
-        print("Go Againe")
+    if choice <= 3:
+        print("Are you Freaking Dump?")
+        level_2()
+
+    elif choice <= 6 and choice >= 3:
+        print("Your Still Dump")
+        level_2()
+    
+    elif choice <= 9 and choice > 6:
+        print("Nahhhhhh Cmon Dudeeeeee")
+        level_2()
+
+    elif choice == 10:
+        print("wELL Done...\nUr Smart!")
+
     else:
-        print("What Number")
+        print("Done!")
 
 
-#level_2
 
 
-start()
+
+def dead():
+    exit(0)
+    
+
+level_2()
