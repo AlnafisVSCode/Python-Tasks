@@ -183,12 +183,42 @@ def coinToss():
     print("----->>>>________Welcome To The Coin Flip_________<<<<<<-----")
     print("Do you Choose 'Head' OR 'Tail'")
     choice = input(arrow)
+    print("You Chose:", choice)
 
+#0 = head
+#1 = tail
     flip = random.randint(0, 1)
-    if (flip == 0):
-        print("Heads")
+    if (flip == 0 and choice == "head"):
+        print("You WIN - It was a head")
+
+    elif (flip == 0 and choice == "tail"):
+        print("----->>>>__________You LOST - It was a Tail____________<<<<<<-----")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|                         You Win $0                             |")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|________________________________________________________________|")
+    
+    elif (flip == 1 and choice == "head"):
+        print("You Lose - It was a tail")
+        print("----->>>>__________You LOST - It was a Tail____________<<<<<<-----")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|                         You Win $0                             |")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|________________________________________________________________|")
+
+    elif (flip == 1 and choice == "tail"):
+        print("You WIN - It was a tail")
+
     else:
-        print("Tails")
+        print("I DONT KNOW WHAT THAT IS.")
+        coinToss()
+        
 
 coinToss()
 
