@@ -9,10 +9,10 @@ def start():
     print('you can decide for your self to take\nThe Right Path\n\tOr\nThe Left Path')
 
     choice = input(arrow)
-    if choice == "right":
+    if choice == "Right":
         print(f"You took the {choice} path\nYou shall enter a dungeon Now....")
         Duungeon()
-    elif choice == "left":
+    elif choice == "Left":
         print(f"You took {choice} path\nYou Skipped to level 2")
         level_2()
     else:
@@ -54,7 +54,7 @@ def Duungeon():
 def level_2():
     
     print(" ")
-    print("----->>>>________Welcome To Level 3...________<<<<<<-----")
+    print("----->>>>________Welcome To Level 2...________<<<<<<-----")
     print("Welcome to Level 2....")
     print("It's a Math Game\n What is: 2+2+6/2+2+1?")
     for i in range(10):
@@ -188,11 +188,18 @@ def coinToss():
 #0 = head
 #1 = tail
     flip = random.randint(0, 1)
-    if (flip == 0 and choice == "head"):
-        print("You WIN - It was a head")
+    if (flip == 0 and choice == "Head"):
+        print("----->>>>__________You WON1 - It was a Head____________<<<<<<-----")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|                   You Win $200,000,000                         |")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|________________________________________________________________|")
 
-    elif (flip == 0 and choice == "tail"):
-        print("----->>>>__________You LOST - It was a Tail____________<<<<<<-----")
+    elif (flip == 0 and choice == "Tail"):
+        print("----->>>>__________You LOST - It was a Head____________<<<<<<-----")
         print("|                                                                |")
         print("|                                                                |")
         print("|                         You Win $0                             |")
@@ -201,7 +208,7 @@ def coinToss():
         print("|                                                                |")
         print("|________________________________________________________________|")
     
-    elif (flip == 1 and choice == "head"):
+    elif (flip == 1 and choice == "Head"):
         print("You Lose - It was a tail")
         print("----->>>>__________You LOST - It was a Tail____________<<<<<<-----")
         print("|                                                                |")
@@ -212,15 +219,23 @@ def coinToss():
         print("|                                                                |")
         print("|________________________________________________________________|")
 
-    elif (flip == 1 and choice == "tail"):
-        print("You WIN - It was a tail")
+    elif (flip == 1 and choice == "Tail"):
+        print("----->>>>__________You WON2 - It was a Tail____________<<<<<<-----")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|                   You Win $200,000,000                         |")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|________________________________________________________________|")
 
     else:
         print("I DONT KNOW WHAT THAT IS.")
         coinToss()
+    exit(0)
         
 
-coinToss()
+start()
 
 
 
