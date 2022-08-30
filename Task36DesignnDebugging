@@ -14,10 +14,10 @@ def start():
         Duungeon()
     elif choice == "left":
         print(f"You took {choice} path\nYou Skipped to level 2")
-        # level2()
+        level_2()
     else:
         print("What Frick is Up??\nDead....")
-        # dead()
+        dead()
 
 #Dungeon
 #While loop runs until ITS FALSE
@@ -79,13 +79,40 @@ def level_2():
 
 
 def dead():
+    print("<<<<<<<<<<<<<YOU ARE GONE>>>>>>>>>>>>>>>")
     exit(0)
     
+
 def level_3():
     print("")
-    print("----->>>>________Welcome To Level 3...________<<<<<<-----")
+    print("----->>>>________Welcome To Level 3_________<<<<<<-----")
+    print("Would you want to leave with 50%' of the loot OR Continue???\n1. Leave\n2. Continue")
 
-Duungeon()
+    choice = input(arrow)
+
+    for i in range(6):
+        
+        if "Leave" in choice:
+            print("You have decided to leave the game!\n Are you Sure??")
+            print("Y/N")
+
+            choice = input(arrow)
+
+            if "Y" in choice:
+                print("Well not bad ngl...\n You could have won more but it's safe to go...")
+                dead()
+            elif "N" in choice:
+                print("Ok, you can go back\n")
+                level_3()
+        elif "Continue" in choice:
+            print("You sure are the challenger huh!?\n Well We Will give you a challenge now\n See If you can solve it...\n")
+            guess_game()
+
+
+def guess_game():
+    print("----->>>>________Guessing the number_________<<<<<<-----")
+
+level_3()
 
 
 
