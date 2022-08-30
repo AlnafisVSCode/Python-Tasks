@@ -1,4 +1,4 @@
-
+import random
 
 
 arrow = ">> "
@@ -112,7 +112,88 @@ def level_3():
 def guess_game():
     print("----->>>>________Guessing the number_________<<<<<<-----")
 
-level_3()
+    print("Game is quite Simple!\nGuess the number i am thinking of: (x)\n1. Type a Number\n2. '101' for help\n6 Chances to Finsh")
+    
+    x = 12
+    y = False
+    z = True
+
+    for i in range(5):
+
+        choice = int(input("> "))
+
+        if choice == 12:
+            print("Well Done you have Successfully guessed the number!!!")
+            break
+    
+        elif choice < 16 and choice != 12:
+            print("You are in the right path\nGo Forward!")
+            
+        elif choice >= 16 and choice <= 100:
+            print("You are Definetely NOT in the right path\nGo back")
+
+    
+        else:
+            print("So You need a Clue I see...")
+        
+        if choice == 101 and not y and z:
+            print("The clue is it's less than 20...")
+            y = True
+            z = False
+
+        elif choice == 101 and y:
+            print("The clue is it's more than 10...")
+            y = False
+            
+        elif choice == 101 and not y:
+            print("The clue is it's less than 13...")
+    else:
+        dead() 
+            
+
+def finish_line():
+    print("----->>>>________Welcome To The Finish Line!!_________<<<<<<-----")
+    print("|                                                                |")
+    print("|                                                                |")
+    print("|                   You Win $100,000,000                         |")
+    print("|                                                                |")
+    print("|                    Double or Nothing?                          |")
+    print("|                                                                |")
+    print("|________________________________________________________________|")
+
+    choice = input("Y/N")
+
+    if "Y" in choice:
+        coinToss()
+    elif "N" in choice:
+        print("----->>>>________Welcome To The Finish Line!!_________<<<<<<-----")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|                   You Win $100,000,000                         |")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|                                                                |")
+        print("|________________________________________________________________|")
+    else: 
+        print("What? Y/N*")
+        finish_line()
+
+def coinToss():
+    number = input("Number of times to flip coin: ")
+    recordList = []
+    heads = 0
+    tails = 0
+    flip = random.randint(0, 1)
+    if (flip == 0):
+        print("Heads")
+        recordList.append("Heads")
+    else:
+        print("Tails")
+        recordList.append("Tails")
+    print(str(recordList))
+    print(str(recordList.count("Heads")) + str(recordList.count("Tails")))
+    #Clues
+guess_game()
 
 
 
