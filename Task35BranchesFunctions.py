@@ -73,6 +73,6 @@ def start():
     else:
         dead("You Stubled around the room until you starve.")
     
-start()
+gold_room()
 
 
