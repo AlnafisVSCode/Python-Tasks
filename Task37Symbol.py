@@ -1,3 +1,16 @@
+"https://rupert.id.au/python/book/learn-python3-the-hard-way-nov-15-2018.pdf"
+"163 pg"
+
+
+
+
+
+
+
+
+
+
+
 # def assert_this(arg1,arg2):
 #     print("Are you Asserting this?")
 #     print(f"Are1 is {arg1} and arg2 is {arg2}")
@@ -9,6 +22,12 @@
 
 
 
+
+
+
+
+
+from re import I
 
 
 arrow = "> "
@@ -72,19 +91,11 @@ arrow = "> "
 #             print("I think that's not the range we asked you Asshole!")
 
 
-def if_statement():
-    print("Print 1 to win or any else to lose ")
-
-    while True: 
-        choice = input()
-        if "77" in choice:
-            print("Win")
-            # continue
-        else:
-            print("Lose")
+# def if_statement():
+#     1 == 1 == False
             
 
-if_statement()
+# if_statement()
 
 # def dead():
 #     print("gOne")
@@ -95,3 +106,10 @@ if_statement()
 
 
 # Duungeon()
+
+
+print( "Hello \a hello\r")
+
+
+
+
