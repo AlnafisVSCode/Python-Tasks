@@ -42,11 +42,12 @@ def Duungeon():
         elif choice == 9 and loop:
             print("Nice One. You can Proceed to Lv 2.")
             level_2()
-        elif choice != 9:
-            print("You Lost\n GO Again!..?")
-        # else:
+            break
+        # elif choice != 9:
         #     print("You Lost\n GO Again!..?")
-        #     break
+        else:
+            print("You Lost\n GO Again!..?")
+            
 
     
 
