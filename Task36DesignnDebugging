@@ -112,13 +112,13 @@ def level_3():
 def guess_game():
     print("----->>>>________Guessing the number_________<<<<<<-----")
 
-    print("Game is quite Simple!\nGuess the number i am thinking of: (x)\n1. Type a Number\n2. '101' for help\n")
+    print("Game is quite Simple!\nGuess the number i am thinking of: (x)\n1. Type a Number\n2. '101' for help++You Got 6 Chances\n")
     
     x = 12
     y = False
     z = True
 
-    for i in range(5):
+    for i in range(6):
 
         choice = int(input("> "))
 
