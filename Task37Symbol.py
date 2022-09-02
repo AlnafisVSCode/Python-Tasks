@@ -115,6 +115,8 @@ print( "Hello \a hello\r")
 
 def argument(def1):
     print("Hello")
+    print("Hello")
+    print("Hello")
 
 
 argument("Hello")
