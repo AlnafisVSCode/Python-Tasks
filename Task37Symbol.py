@@ -5,7 +5,7 @@
 
 
 
-
+"1==1 == False - Wrong"
 
 
 
@@ -63,49 +63,49 @@ arrow = "> "
 #         #     print("You Lost\n GO Again!..?")
 #         #     break
     
-# def level_2():
+def level_2():
     
-#     print(" ")
-#     print("----->>>>________Welcome To Level 2...________<<<<<<-----")
-#     print("Welcome to Level 2....")
-#     print("It's a Math Game\n What is: 2+2+6/2+2+1?")
-#     for i in range(10):
-#         choice = int(input(arrow))
+    print(" ")
+    print("----->>>>________Welcome To Level 2...________<<<<<<-----")
+    print("Welcome to Level 2....")
+    print("It's a Math Game\n What is: 2+2+6/2+2+1?")
+    for i in range(10):
+        choice = int(input(arrow))
 
-#         if choice <= 3:
-#             print("Are you Freaking Dump?")
+        if choice <= 3:
+            print("Are you Freaking Dump?")
             
-#         elif choice <= 6 and choice > 3:
-#             print("Your Still Dump")
+        elif choice <= 6 and choice > 3:
+            print("Your Still Dump")
             
         
-#         elif choice <= 9 and choice >= 6:
-#             print("Nahhhhhh Cmon Dudeeeeee")
+        elif choice <= 9 and choice >= 6:
+            print("Nahhhhhh Cmon Dudeeeeee")
             
-#         elif choice == 10:
-#             print("wELL Done...\nUr Smart!")
-#             # continue
-#             # level_3()
+        elif choice == 10:
+            print("wELL Done...\nUr Smart!")
+            # continue
+            # level_3()
 
-#         else:
-#             print("I think that's not the range we asked you Asshole!")
+        else:
+            print("I think that's not the range we asked you Asshole!")
 
 
-# def if_statement():
-#     1 == 1 == False
+def if_statement():
+    1 == 1 == False
             
 
-# if_statement()
+if_statement()
 
-# def dead():
-#     print("gOne")
+def dead():
+    print("gOne")
 
-# level_2()
-# def level_3():
-#     print("Welcome to Level 3")
+level_2()
+def level_3():
+    print("Welcome to Level 3")
 
 
-# Duungeon()
+Duungeon()
 
 
 print( "Hello \a hello\r")
