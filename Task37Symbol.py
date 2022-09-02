@@ -113,6 +113,12 @@ Duungeon()
 
 print( "Hello \a hello\r")
 
+def argument(def1):
+    print("Hello")
+
+
+argument("Hello")
+
 
 
 
