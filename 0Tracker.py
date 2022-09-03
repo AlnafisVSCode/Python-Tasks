@@ -3,9 +3,11 @@ from time import time
 #Calculate your Time! Edited By RacingXHunter
 
 #Weeks 1-4 > Mins
-Week_1 = 886  # 9 - 18 Aug
-Week_2 = 870    #18 - 25 Aug
-Week_3 = 0      #25 - 31 Augcc
+Week_1 = 886  #09 - 18 Aug
+Week_2 = 870   #18 - 25 Aug
+Week_3 = 806    #25 - 03 Aug
+Week_4 = 0       #04 - 10 Sep
+Week_5 = 0
 
 #In Minutes
 day1 = 152 #25
@@ -14,7 +16,7 @@ day3 = 120 #27
 day4 = 0        #28
 day5 = 121
 day6 = 173
-day7 = 0
+day7 = 120
 
 total_time = day1+day2+day3+day4+day5+day6+day7
 total_timeH = total_time/60
