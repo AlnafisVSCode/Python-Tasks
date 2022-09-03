@@ -1,7 +1,48 @@
 "--------------------------ch 38-------"
-mystuff = []
+# mystuff = []
 
-mystuff.append("Hello")
+# mystuff.append("Hello")
 
-print(mystuff)
+# print(mystuff)
 "---------------------------------"
+
+from turtle import st
+
+
+ten_things = "Apples oranges crows telephone Light Sugar"
+
+
+print("Wait there not 10 things in that list. Let's fix that.")
+
+stuff = ten_things.split(' ')
+# list1 = [stuff]  #Made this into a list from a string
+more_stuff = ["Day", "Night", "Song", "Frisbee", "Corn", "Banana", "Girl", "Boy"]
+# print(stuff)
+
+while len(stuff) != 10:
+    next_one = more_stuff.pop(0)
+    print("Adding: ", next_one)
+    stuff.append(next_one)
+    print(f"There are {len(stuff)} items now.")
+
+print("There we go: ", stuff)
+
+print("Let's do some things with stuff.")
+
+print(stuff[1])
+print(stuff[-1]) #goes backward
+print("-----------------Pops 1-------------------")
+print(stuff.pop())
+print(stuff)
+print("----------------")
+print(' '.join(stuff))
+print(' # '.join(stuff[3:5]))
+print("------------------------------------")
+stuff.pop()
+print(stuff)
+stuff.pop()
+print(stuff)
+
+
+
+
