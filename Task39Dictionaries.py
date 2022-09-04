@@ -113,3 +113,32 @@ city = cities.get("tx", "Does not exist!!")
 print(f"The city for the region 'tp' is {city}")
 
 print(city)
+
+print("")
+try:
+    print(cities["LNt"])
+except:
+    print("Errore Mate!!")
+
+print("------")
+
+for key in cities.keys(): #To print all the keys
+    print(key)
+print("------------------------")
+for value in cities.values():
+    print(value)
+
+print("------------------------")
+
+for keyt, value in region.items(): # Making the whole thing a set of item
+    print(keyt, value)
+
+print("----------------------------------")
+#How to copy a dict
+
+copy_of_cities = cities.copy()
+
+copy_of_cities["HK"] = "Hong Kong"
+
+print(cities)
+print(copy_of_cities)
