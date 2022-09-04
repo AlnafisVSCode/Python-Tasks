@@ -72,11 +72,44 @@ print("--------------------------------------------------------")
 cities = {
     "LN" : "London",
     "BR" : "Birmingham",
-    "CH" : "Chelsea",
+    "CH" : "Chelsea",  
     "LP" : "Liverpool",
     "MN" : "Manchester"
 }
 
 region = {
-
+    "London": "Ilford",
+    "Birmingham" : "Spoons",
+    "Chelsea" : "Chelsea FC",
+    "Liverpool" : "FCClub",
+    "Manchester" : "United"
 }
+
+#Adding More Cities
+
+cities["PR"] = "Paris"
+
+print(cities["LN"])
+print(cities["BR"])
+# print(cities[region["Ilford"]])
+print(region[cities["LN"]])
+print("--------------------------")
+print(cities)
+
+for abbrev, city in list(cities.items()):
+    print(f"The abbreviation is: {abbrev} for the city : {city}")
+print("")
+for city, clubs in list(region.items()):
+    print(f"Cities are: {city} with their club {clubs}")
+
+print("--------------")
+
+city = cities.get("Texas")
+
+if not city:
+    print("The city does not exist!", city)
+
+city = cities.get("tx", "Does not exist!!")
+print(f"The city for the region 'tp' is {city}")
+
+print(city)
