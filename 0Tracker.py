@@ -10,7 +10,7 @@ Week_4 = 0       #04 - 10 Sep
 Week_5 = 0
 
 #In Minutes
-day1 = 50       #04
+day1 = 171      #04
 day2 = 0        #05
 day3 = 0        #06
 day4 = 0        #07
@@ -43,5 +43,5 @@ print("Daily Information\n", "Day1: {} Mins\n" .format(day1),
 print("Total Time Spent:", total_time, ">", total_timeH, "Hours")
 print(f"Time Remaining: {time_remaining} Minutes")
 print("Hours Remaining: ", hour_remaining)
-print("Helper:", 120+53 )
+print("Helper:", 120+51 )
 
