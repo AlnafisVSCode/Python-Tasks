@@ -1,5 +1,5 @@
 
-
+tangerine = "Livin ref of a dream! | OOP"
 
 class Employees():
 
@@ -75,6 +75,11 @@ for value in region.values():
 for keys in dic1.keys():
     print(keys)
 
+
+class apple():
+    def apples():
+        print("I am Apples!! and from OOP.py")
+        print(tangerine)
 
 role = roles("Racing", 2, 75000)
 
