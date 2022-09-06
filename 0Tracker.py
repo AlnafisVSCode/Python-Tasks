@@ -11,7 +11,7 @@ Week_5 = 0
 
 #In Minutes
 day1 = 171      #04
-day2 = 0        #05
+day2 = 120        #05
 day3 = 0        #06
 day4 = 0        #07
 day5 = 0
