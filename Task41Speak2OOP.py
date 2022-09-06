@@ -1,25 +1,18 @@
-# X() = Class
-#foo = X() ”Set foo to an instance of class X.”
+import random
 
-
-from ctypes.wintypes import WORD
-import encodings
-from lib2to3.pytree import _Results
-from random import random
-import re
 import sys
-from tkinter.messagebox import QUESTION
-from unittest import result
 from urllib.request import urlopen
 
 
+# X() = Class
+#foo = X() ”Set foo to an instance of class X.”
 WORD_URL = "http://learncodethehardway.org/words.txt"
 WORDS = []
 
 PHRASES = {
     "class %%%(%%%):":
-        "Make a clas named %%% that is-a %%%.",
-     "class %%%(object): /n/tdef __init__(self, ***)":
+        "Make a class named %%% that is-a %%%.",
+     "class %%%(object): \n\tdef __init__(self, ***)":
         "class %%% has-a __init__ that takes self and *** params.",
      "class %%%(object):\n\tdef ***(self, @@@)":
         "class %%% has-a function *** that takes self and @@@ params.",
@@ -41,12 +34,12 @@ else:
 
 
 for word in urlopen(WORD_URL).readlines():
-    WORD.append(str(word.strip(), encoding = "utf-8"))
+    WORDS.append(str(word.strip(), encoding = "utf-8"))
 
 def convert(snippet, phrase):
     class_names = [w.capitalize() for w in random.sample(WORDS, snippet.count("%%%"))]
     other_names = random.sample(WORDS, snippet.count("***"))
-    result = []
+    results = []
     param_names = []
 
 
@@ -67,7 +60,7 @@ def convert(snippet, phrase):
         for word in param_names:
             result = result.replace("@@@", word, 1)
 
-        result.append(result)
+        results.append(result)
 
     return results
 
