@@ -7,7 +7,7 @@ class Song(object):
             print(line)
 
 
-
+## THIS IS AN INSTANCE 
 "-------------------------------------------------------"
 happy_dbay = Song(["Happy birthday to you",
 "I don't want to get sued", "So i'll stop right here!"])
