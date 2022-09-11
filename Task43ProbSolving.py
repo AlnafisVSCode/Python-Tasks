@@ -115,14 +115,14 @@ class LaserWeaponArmory(Scene):
             the room and find the netron bomb in it'c container. 
             There's a keyboard, lock on the box and you need the code to get the bomb out.
             If you get the code wrong 10 times then the lock closes forever and you can't get 
-            the bomb. The code is 3 digits long.
+            the bomb. The code is 2 digits long.
             """))
 
-        code = f"{randint(1,9)}{randint(1,9)}{randint(1,9)}"
+        code = f"{randint(1,5)}"
         guess = input("[keypad]> ")
         guesses = 0
 
-        while guess != code and guesses < 10:
+        while guess != code and guesses < 20:
             print("BZZZZZZZZZZZZd!")
             guesses += 1
             guess = input("[KEYPAD]> ")
