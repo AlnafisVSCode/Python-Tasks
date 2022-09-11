@@ -1,6 +1,8 @@
 
 
 from random import randint
+import re
+from secrets import choice
 
 
 class Scene(object):
@@ -69,19 +71,74 @@ class CentralCorridor(Scene):
 class LaserWeaponArmory(Scene):
 
     def enter(self):
-         pass
+
+        print("There is a lock to get to the room to access the explosivee...\nTry Guessing it, it's a 1 pin code!")
+
+        code = f"{randint(0,9)}"
+        guess = input("[Pin Code] >")
+        guesses = 0
+
+
+        while guess != code and guesses < 10:
+           guesses =+ 1
+           print("Failed!>Try Again!")
+
+           guess = input("[Pin Code] >")
+
+        if guess == code:
+            print("Congrats Mister!\nYou have managed bypass the security") 
+            print("You can now access the bomba")
+
+            return 'the_bridge'
+        
+        else:
+            print("Write a damn number ur muppet that get's it done!")
+            print("Good bye")
+
+            return 'death'
+
+            
+
+        
 
 class TheBridge(Scene):
     def enter(self):
-        pass
+        print("After getting the explosives, you reach the bridge but some clowns are in front of you.")
+        print("Do you? 1. 'negotiate' with your life\n2.'start' the bomb\n3.'surrender'so you could run when they don't see u")
+
+        choice = input("> ")
+        if "negotiate" in choice:
+            print("R u Dumb?\n they clowns and troll\n Gunzo")
+            return 'death'
+        elif "start" in choice:
+            print("Well done, they got jebaited as they ran away thinking it would explode but you could turn it off.")
+            return 'escape_pod'
+        else:
+            print("You Cow beach ass. BBEGONE")
+            return 'the_bridge'
 
 class EscapePod(Scene):
 
     def enter(self):
-        pass
+        print("You have the chance to escape. but as DBZ Capsules...\nChoose between 3 Capsules and might live..")
+        
+        choice = input("> ")
+
+        guess = f"{randint(1,4)}"
+
+
+        if int(choice) == guess:
+            print('Great Job\nYou survived another day in your adventure...\nTO BE CONTINUED....')
+            return 'finished'
+
+        else:
+            print("You entered the capsul, just to realise it doesnt work and now your stuck untill it explodes...")
+            return 'death'
 
 class Finished():
-    pass
+    def enter(self):
+        print("You Won....")
+        return 'finished'
 
 class Map(object):
 
@@ -90,7 +147,9 @@ class Map(object):
         'central_corridor': CentralCorridor(),
         'laser_weapon': LaserWeaponArmory(),
         'death': Death(),
-        'finished': Finished()
+        'finished': Finished(),
+        "the_bridge": TheBridge(),
+        "escape_pod": EscapePod()
 
 
     }
