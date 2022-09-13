@@ -14,9 +14,9 @@ day1 = 171      #04
 day2 = 120      #05
 day3 = 123      #06
 day4 = 122      #07
-day5 = 120
-day6 = 0
-day7 = 0      #10
+day5 = 120      #08
+day6 = 134    #11
+day7 = 0      #
 
 total_time = day1+day2+day3+day4+day5+day6+day7
 total_timeH = total_time/60
