@@ -66,6 +66,32 @@ class User():
             # print(f"{fc} : {count}"
             print(f"{fc}")
 
+        print("\nIs there any other Teams to be added? Y/N")
+
+        choice = input(arrow)
+
+        for i in range(5):
+            
+            if "Y" in choice:
+                Team.make_team()
+            elif "N" in choice:
+                print("All right then what team have you chosen?")
+                exit(1)
+            else:
+                print("N/A") 
+
+
+
+class Team():
+    def make_team():
+
+
+
+        
+        new_team = input(arrow)
+
+        print(new_team)
+    
 
 
 User.start()
