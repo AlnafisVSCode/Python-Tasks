@@ -6,17 +6,17 @@ from time import time
 Week_1 = 886  #09 - 18 Aug
 Week_2 = 870   #18 - 25 Aug
 Week_3 = 806    #25 - 03 Aug
-Week_4 = 0       #04 - 10 Sep
-Week_5 = 0
+Week_4 = 910     #04 - 13 Sep
+Week_5 = 0        #15 - 21 Sep
 
 #In Minutes
-day1 = 171      #04
-day2 = 120      #05
-day3 = 123      #06
-day4 = 122      #07
-day5 = 120      #08
-day6 = 134    #11
-day7 = 0      #
+day1 = 0      #15
+day2 = 0      #
+day3 = 0      #17
+day4 = 0      
+day5 = 0      #19
+day6 = 0      #20
+day7 = 0      #21   
 
 total_time = day1+day2+day3+day4+day5+day6+day7
 total_timeH = total_time/60
