@@ -5,30 +5,34 @@
 #In our game we have to create a list of allowable words called a ”lexicon”:
 
 
-import re
+# import re
 
 
-stuff = input('> ')
-words = stuff.split()
+# stuff = input('> ')
+# words = stuff.split()
 
-# print(words)
+# # print(words)
 
-# list1 = [words]
+# # list1 = [words]
 
-# print(list1[0])
+# # print(list1[0])
 
-##  Lexicon Tuples
+# ##  Lexicon Tuples
 
-first_word = ('verb', 'go')
-second_word = ('direction', 'north')
-third_word = ('direction', 'west')
-sentence = (first_word, second_word, third_word)
-# print(sentence)
+# first_word = ('verb', 'go')
+# second_word = ('direction', 'north')
+# third_word = ('direction', 'west')
+# sentence = (first_word, second_word, third_word)
+# # print(sentence)
 
-####    Try exception and numbers
+# ####    Try exception and numbers
 
-def convert_number(s):
-    try:
-        return int(s)
-    except ValueError:
-        return None
+# def convert_number(s):
+#     try:
+#         return int(s)
+#     except ValueError:
+#         return None
+
+print("hel")
+pr
+print
